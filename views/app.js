@@ -36,8 +36,8 @@ async function onLoginButtonClick() {
 	try {
         console.log('ruuning?')
         await appID.init({
-         clientId: 'feb00abe-0a0e-462f-bf91-e2c7ffb35f24',
-         discoveryEndpoint: 'https://au-syd.appid.cloud.ibm.com/oauth/v4/45c6858a-f995-4209-b5d5-f1b2234ce385/.well-known/openid-configuration',
+         clientId: 'enter Client ID here',
+         discoveryEndpoint: 'enter discovery end point here',
         });
 
 		showElement($loginButton);
